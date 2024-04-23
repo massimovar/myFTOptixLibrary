@@ -1,0 +1,34 @@
+Name: Types
+Type: FolderType
+Children:
+- Class: Reference
+  Type: HasComponent
+  Target: g=ce939211dd790c171f07a1c8ffd81e90
+- Class: Reference
+  Type: HasComponent
+  Target: g=2255b4a3099ee3c2417bdb40b245b619
+- Name: Lathe
+  Id: g=08b12d08a1b0efe9f184ead7f72d3e5c
+  Supertype: BaseObjectType
+  Description: {"LocaleId":"en-US","Text":"Description not set"}
+  Children:
+  - Name: AlarmOn
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: false
+  - Name: MachineOnline
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: false
+  - Name: ReadyToLoad
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: false
+  - Name: StartProduction
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: false
+  - Name: ProductionCode
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "not set"

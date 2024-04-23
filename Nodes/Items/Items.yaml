@@ -1,0 +1,7 @@
+Name: Items
+Type: FolderType
+Children:
+- File: Widgets/Widgets.yaml
+- File: Scripts/Scripts.yaml
+- File: Objects/Objects.yaml
+- File: Security/Security.yaml

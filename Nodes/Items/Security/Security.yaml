@@ -1,0 +1,23 @@
+Name: Security
+Type: FolderType
+Children:
+- Name: FTAutomationOperator
+  Type: ObjectLibraryItem
+  Description: {"LocaleId":"","Text":"Author: Massimo\n"}
+  Children:
+  - Name: FTAutomationOperator
+    Id: g=9c367c40f4458a309be03ceb2fdcf568
+    Supertype: UserType
+    Children:
+    - Name: Variable1
+      Type: BaseDataVariableType
+      DataType: Int32
+      Value: 0
+    - Name: Variable2
+      Type: BaseDataVariableType
+      DataType: Int32
+      Value: 0
+    - Name: Variable3
+      Type: BaseDataVariableType
+      DataType: Int32
+      Value: 0
